@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>Ecommerce Website</title>
+
+    <!-- link the css file with html -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+  </head>
+
+  <body>
+    <!-- header starts -->
+    <section id="header">
+      <a href="#"
+        ><img src="/logo.png/download.png" class="logo" alt="img"
+      /></a>
+
+      <p>in collab with RITIKA</p>
+      <div>
+
+
+        <!-- navbar -->
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <!--WE WILL ADD CLASS ACTIVE TO SHOW THE SHOP.HTML PAGE -->
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fas fa-shopping-bag"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+
+      <div class="mobile">
+        <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <!-- header ends -->
+
+    <!-- page-header starts-->
+    <section id="page-header" class="cart">
+     <h2></h2>
+    </section>
+    <!-- page-header  ends -->
+
+    <!-- cart starts  -->
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><i class="fas fa-times-circle"></i></a>
+              <td><a href="https://in.sugarcosmetics.com/products/la-la-love-18hr-liquid-lipstick-set-of-3-lipstick"><img src="/pay/image (7).webp" alt="image"></td>
+              <td>LA LA LOVE 18HR Liquid Lipstick - Set of 3</td>
+              <td>₹899</td>
+              <td><input type="number" value="1"></td>
+              <td>₹899</td>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><i class="fas fa-times-circle"></i></a>
+              <td><a href="https://in.sugarcosmetics.com/products/auto-correct-creaseless-concealer"><img src="/pay/image (3).webp" alt="image"></td>
+              <td>Auto Correct Creaseless Concealer</td>
+              <td>₹599</td>
+              <td><input type="number" value="1"></td>
+              <td>₹599</td>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><i class="fas fa-times-circle"></i></a>
+              <td><a href="https://in.sugarcosmetics.com/products/4-in-1-makeup-set"><img src="/pay/image (4).webp" alt="image"></td>
+              <td> 4-IN-1<br />
+                Makeup Set</td>
+              <td>₹899</td>
+              <td><input type="number" value="1"></td>
+              <td>₹899</td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+<!-- cart ends -->
+
+<!-- cart-add starts -->
+<section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3 class="normal">Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Gift code ">
+            <button class="">APPLY</button>
+        </div>
+    </div>
+
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Card Subtotal</td>
+                <td>₹899</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Total</strong>
+                </td>
+                <td><strong>₹899</strong></td>
+            </tr>
+
+        </table>
+        <button class="normal">Proceed to checkout</button>
+    </div>
+</section>
+<!-- cart-add ends -->
+
+    <!-- footer starts -->
+    <footer
+      class="section-p1"
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+      "
+    >
+      <div style="width: 100%">
+        <hr />
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            padding: 30px 10px;
+          "
+        >
+          <div>
+            <a href="https://in.sugarcosmetics.com/stores"><h3>Stores</h3></a>
+          </div>
+          <div>
+            <a href="https://in.sugarcosmetics.com/pages/terms-conditions"
+              ><h3>Term & Conditions</h3></a
+            >
+          </div>
+          <div>
+            <a href="https://in.sugarcosmetics.com/pages/offer"
+              ><h3>Returns</h3></a
+            >
+          </div>
+          <div>
+            <a href="https://in.sugarcosmetics.com/pages/faqs">
+              <h3>FAQs</h3></a
+            >
+          </div>
+          <div>
+            <a href="https://in.sugarcosmetics.com/pages/about-us">
+              <h3>About us</h3></a
+            >
+          </div>
+        </div>
+        <hr />
+      </div>
+      <br />
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 25px 10px;
+        "
+      >
+        <div>
+          <h3>GET IN TOUCH</h3>
+          <div>
+            <span>Call us at</span>
+          </div>
+          <div>
+            <a href="tel:1800-209-9933"
+              ><span style="color: grey">1800-209-9933</span></a
+            >
+          </div>
+          <div>
+            <span style="color: grey">Monday to Friday: 9 AM to 7 PM</span>
+          </div>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="mailto:hello@sugarcosmetics.com"
+            ><span style="color: grey">hello@sugarcosmetics.com</span></a
+          >
+        </div>
+        <div>
+          <h4>Careers</h4>
+          <a href="https://in.sugarcosmetics.com/careers"
+            ><span style="color: grey">We're hiring</span></a
+          >
+        </div>
+        <div>
+          <h4>Press & Media</h4>
+          <a href="mailto:pr@sugarcosmetics.com"
+            ><span style="color: grey">pr@sugarcosmetics.com</span></a
+          >
+        </div>
+        <div>
+          <h4>Influencer Collab</h4>
+          <a
+            href="https://docs.google.com/forms/d/10QqWLG-_x61g8xXcCOd856iap1feiMgFmWcXhVxDWk0/viewform?edit_requested=true&pli=1"
+            ><span style="color: grey">Join us</span></a
+          >
+        </div>
+      </div>
+      <br />
+      <div style="width: 100%">
+        <hr />
+        <div
+          class="col install"
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 10px;
+          "
+        >
+          <div>
+            <h4>GET THE NEW SUGAR APP TODAY!</h4>
+            <p style="color: grey">Tap into a better shopping experience.</p>
+          </div>
+          <div class="row">
+            <a href="https://sugarcosmetics.app.link/WebFApp"
+              ><img
+                src="/pay/unnamed.png"
+                alt="image"
+                height="50px"
+                width="150px"
+            /></a>
+            <a href="https://sugarcosmetics.app.link/WebFApp"
+              ><img
+                src="/pay/images.png"
+                alt="image"
+                height="50px"
+                width="150px"
+            /></a>
+            <a
+              href="https://public.releases.juspay.in/hyper-sdk-web/hyper.html?e=kmOZRGqSAlQB7onnX1QgnLjA9RPpo9nJjvabmlHYhQ00_tIygl5TGYnSwSe3j75sA55K8y-y42ddRKyh5f-cLOZAb8xhZnSEv6ADmSZ-6_sX_94hEvWQY_lznsZlU-Izh7DWYPhxW0pEdo9p7FSLIfK7ZfmRWjt5rmDWr8rZcoqEiEvN5ScvCnpPbK-lYKMc4h__2iduXs79yLNvpqJcyRVVu-E12FERqcFlVqBzZvUFfqUi7JQI4fPdZCu8YFdCbYqDrCZPV7dy9gcUID4eRc1p5xzyzSjUQZtKWohgOgk6irUGa5SqdejxWgpoS2JhSRxMbCW79nAXoqEW_gHmyYrZbwdeSIe3ZbOmEQL5jBSxUbzwpH7VjxnQoOFIt9wzOwv9iDDMOK4DozOtC1sKLpqtQ_EFDa1SJV3d_RKtavTf_j0bdv9VxkFs6HD2ZnVqNl0a6hG96n5ZY3OvnkrEk0GDlwsQ-xT5tfj6GVcH_RiZoNH5qBHS8NUYYNxfQ-pYsUatuBrPbSlDJtyS4kh8WeJw9FZxF99iwa6zUZt6Eo5XSIJGwjWxHQwM8IN64XzM4PRkbrY8L4a_yE3tPJpdomwUIitx5iNjZ5Xv89ENveulgqtkbL8v8IoZ7Dedju9as3p0s2a4YuDiGpV796Ww5z-_3t5XdxD14ZWfuwfNNSD95DKHyVUIhm413u9EADc9XWUIThU4GYUGRKOTP_dh1ZB8aiFmmXFdA7KLMY9DjtESyWVUzw-SihYBjLXvdriY7oIFKqnWdefvOIbBT9WxrHAIo2Ewm31qhpspgmuP-YyNJuZ-olaACYnnrXoUumqTvHeMX6D1UtHr63qQYZIsbtX7V99I6y0PslkpHjzSwUzyR3wP0oE430vJmlLhJ8sAZQ_OtmegkPD1M9keVhUbrT6UZFW5o01EGxGCo7KTYxh2725i6sVKwVUfqfEit-Py_p95MIFeHWnxvT2PC2Zw3wJmky6p-0otDZJLPls3y8Z0_fNHhyMlVF63lfatVqVzREp0IH8AQO9mstVwZdofDCCPFcR1rUbm0jYoEEsToMwbQHtVIM6yMi8IEtTL05I7qUHMXjnt28JAE1V3_D-9mRKKRLWVM95x3qhISS3ZSg3c4TudpYlGXCaeRqoFJCw0hhuYiMJuy6ac_gCLgUrI4XG0d_4XyCwwKAcCtC1s4chV3jvIwW0NeljW6Tp0vEJ5FVBClhJRKRmmJq7uyBQyxos-sCq-lqDJYEvRjuy4IW0nDXV06O0BpTH0fNN_dCYNG14D3yfwvM1WM8lYae_AGuyXVaiTCGD_YvOl7YCRUMLWeVTSX3Hw9tDaQv8gz1T16NzV6U39kFSWyDsMwoFc2Xb1CtDtwgNZaCeheBiXTdvylDYsthCa5vyqWkSqzjYthHJ4nKAvBK5spzWT-XpV7tUGYRY5urvXEZAapKU6ZGFmhtOUH12prqljBov9k35kvFkO0L2PUiFi6lOuvm2bdqkTg_QDosgZw-tfkir7Cj87sukRpz8VAp_25MUKq7KdETtGdONje9e4bwcLGuNuCA&beta=false&clientId=sugar"
+              ><img
+                src="/pay/juspay.webp"
+                height="50px"
+                width="150px"
+                alt="image"
+            /></a>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="copyright" style="padding-top: 10px">
+        <span style="color: gray"
+          >Copyright © 2023 SUGAR Cosmetics. All rights reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- link the javascript file with html -->
+    <script src="/script.js"></script>
+  </body>
+</html>
